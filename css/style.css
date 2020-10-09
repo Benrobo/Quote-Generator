@@ -1,0 +1,46 @@
+body{
+    min-width: 100%;
+    min-height: 100vh;
+    margin:0px;
+    padding:0px;
+    background: rgb(14, 12, 22) !important;
+    color: #fff !important;
+}
+.cont{
+    margin: 0px auto;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.card{
+    width: 450px;
+    margin: 0px auto;
+    color: #fff;
+    background: rgb(20, 19, 31) !important;
+    border:2px solid aqua !important;
+    box-shadow: 0px 0px 10px aqua, 0px 0px 10px aqua;
+}
+.cont .btn{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    display: table;
+    margin:0px auto;
+    background: aqua;
+    border: 2px solid aqua;
+    color: #000;
+    font-weight: 900;
+}
+.cont .btn:hover, .cont .btn:focus{
+    box-shadow: 0px 0px 10px aqua, 0px 0px 20px aqua, 0px 0px 30px aqua;
+    background: aqua;
+    border: 2px solid aqua;
+    color: #000;
+}
+
+.blockquote-footer{
+    font-weight:900;
+    font-family: verdana;
+}
